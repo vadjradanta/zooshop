@@ -2,9 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Табличная вёрстка сайта</title>
 </head>
 <body>
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+    <thead bgcolor="#fff8dc">
+    <th width="200"><img src="images-zooshop/Markiz.jpg" alt="кот" width="200"></th>
+    <th><h1>ЗООМАГАЗИН</h1>
+        <div id="navigator" valign="bottom">
+            <nav><a href="inex.html">Главная</a> | <a href="about.html">О, Магазине!</a> |
+                <a href="articles.html">Что почитать</a> | <a href="form.html">Формы регистрации и заказа</a> |
+                <a href="contacts.html">Где нас найти</a>
+            </nav>
+        </div>
+    </th>
+    </thead>
+    <tfoot bgcolor="#fff8dc">
+    <th title="Дзинь-Дзинь">Если вы зашли к нам на сайт и не позвонили - Мы позвоним Вам!</th>
+    <th>Так что лучше сами позвоните нам по тел. 223-322-223-322!</th>
+    </tfoot>
+    <tr>
+        <td valign="top" bgcolor="#fff8dc">
+            <div id="Menu" align="center"><h3>Меню</h3></div>
+            <div>
+                <ul>
+                    <li><a href="about.html">О магазине</a></li>
+                    <li><a href="articles.html">Что почитать</a></li>
+                    <li><a href="form.html">Формы регистрации и заказа</a></li>
+                    <li><a href="contacts.html">Где нас найти</a></li>
+                </ul>
+            </div>
+        </td>
+        <td valign="top" height="600" bgcolor="#fffaf0">
+            <div align="center"><h2>Формы регистрации и заказа</h2></div><br/>
+            <ol>
+               <li> <h3>Форма регистрации</h3>
+                    <form>
+                        <label>Ваше Имя</label><br/>
+                        <input type="text" name="first name"/><br/>
+                        <label>Ваша Фамилия</label><br/>
+                        <input type="text" name="last name"/><br/>
+                        <br/>
 
+
+                        <br/>
+
+                        <label>Ваш пол</label><br/>
+                        <input type="radio" name="gender"/> Мужской <br/>
+                        <input type="radio" checked name="gender"/> Женский <br/>
+
+                        <br/>
+
+                        <input type="text" name="login" placeholder="Ваш логин"/><br/><br/>
+                        <input type="password" name="login" name="password" placeholder="Введите пароль"/><br/><br/>
+                        <input type="password" name="login" placeholder="Повторите пароль"/><br/><br/>
+
+                        <input type="email" name="email" name="login" placeholder="Ваш email"/><br/><br/>
+
+                        <br/>
+                        <input type="submit" value="Зарегестрироваться"> &nbsp
+                        <input type="reset" value="Очистить"/><br/>
+                    </form>
+               </li><br/>
+                <li>
+
+                </li>
+            </ol>
+
+
+        </td>
+    </tr>
+</table>
 </body>
 </html>
