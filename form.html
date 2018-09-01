@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Табличная вёрстка сайта</title>
+</head>
+<body>
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+    <thead bgcolor="#fff8dc">
+    <th width="200"><img src="images-zooshop/Markiz.jpg" alt="кот" width="200"></th>
+    <th><h1>ЗООМАГАЗИН</h1>
+        <div id="navigator" valign="bottom">
+            <nav><a href="index.html">Главная</a> | <a href="about.html">О, Магазине!</a> |
+                <a href="articles.html">Что почитать</a> | <a href="form.html">Форма регистрации</a> |
+                <a href="contacts.html">Где нас найти</a>
+            </nav>
+        </div>
+    </th>
+    </thead>
+    <tfoot bgcolor="#fff8dc">
+    <th title="Дзинь-Дзинь"><font color="#006400">Если вы зашли к нам на сайт и не позвонили - Мы позвоним Вам!</font></th>
+    <th><font color="#006400">Так что лучше сами позвоните нам по тел. 223-322-223-322!</font></th>
+    </tfoot>
+    <tr>
+        <td valign="top" bgcolor="#fff8dc">
+            <div id="Menu" align="center"><h3>Меню</h3></div>
+            <div>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О магазине</a></li>
+                    <li><a href="articles.html">Что почитать</a></li>
+                    <li><a href="form.html">Форма регистрации</a></li>
+                    <li><a href="contacts.html">Где нас найти</a></li>
+                </ul>
+            </div>
+        </td>
+        <td valign="top" height="600" bgcolor="#fffaf0">
+            <div align="center"><h2>Форма регистрации</h2></div><br/>
+            <ol>
+               <li> <h3>Форма регистрации</h3>
+                    <form>
+                        <input type="text" size=50 placeholder="Ваше Имя" required name="first name"/><font color="red">*</font><br/><br/>
+                        <input type="text" size=50 placeholder="Ваша Фамилия" name="last name"/><font color="red">*</font><br/>
+                        <br/>
+
+
+                        <br/>
+
+                        <label>Ваш пол</label><font color="red">*</font><br/>
+                        <input type="radio" name="gender"/> Мужской <br/>
+                        <input type="radio" checked name="gender"/> Женский <br/>
+
+                        <br/>
+
+                        <input type="text" required name="login" placeholder="Ваш логин"/><font color="red">*</font><br/><br/>
+                        <input type="password" required name="password" placeholder="Введите пароль"/><font color="red">*</font><br/><br/>
+                        <input type="password" required placeholder="Повторите пароль"/><font color="red">*</font><br/><br/>
+
+                        <input type="email" required name="email" placeholder="Ваш email"/><font color="red">*</font><br/><br/>
+
+                        <textarea rows="5" placeholder="Сообщение"></textarea><br/><br/>
+
+                        <label for="avatar">Ваш аватар</label><br/>
+                        <input type="file" id="avatar" name="avatar" placeholder="выберите изображение"/><br/><br/>
+
+                        <input type="checkbox" required name="license" value="Согласен"/>Я принимаю условия лицензионного соглашения<font color="red">*</font><br/><br/>
+                        <input type="checkbox" name="advertisment" value="Согласен"/>Я хочу получать Зоорассылку<br/><br/>
+
+                        <br/>
+                        <input type="submit" value="Зарегестрироваться"> &nbsp
+                        <input type="reset" value="Очистить" id="reset"/><br/>
+                    </form>
+               </li><br/>
+                <li>
+
+                </li>
+            </ol>
+
+
+        </td>
+    </tr>
+</table>
+</body>
+</html>
