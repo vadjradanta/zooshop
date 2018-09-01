@@ -38,10 +38,8 @@
             <ol>
                <li> <h3>Форма регистрации</h3>
                     <form>
-                        <label>Ваше Имя</label><br/>
-                        <input type="text" required name="first name"/><font color="red">*</font><br/>
-                        <label>Ваша Фамилия</label><br/>
-                        <input type="text" name="last name"/><br/>
+                        <input type="text" placeholder="Ваше Имя" required name="first name"/><font color="red">*</font><br/><br/>
+                        <input type="text" placeholder="Ваша Фамилия" name="last name"/><br/>
                         <br/>
 
 
@@ -60,6 +58,9 @@
                         <input type="email" required name="email" placeholder="Ваш email"/><font color="red">*</font><br/><br/>
 
                         <textarea rows="5" placeholder="Сообщение"></textarea><br/><br/>
+
+                        <label for="avatar">Ваш аватар</label><br/>
+                        <input type="file" id="avatar" name="avatar" placeholder="выберите изображение"/><br/><br/>
 
                         <input type="checkbox" required name="license" value="Согласен"/>Я принимаю условия лицензионного соглашения<font color="red">*</font><br/><br/>
                         <input type="checkbox" name="advertisment" value="Согласен"/>Я хочу получать Зоорассылку<br/><br/>
