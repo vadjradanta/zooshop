@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Табличная вёрстка сайта</title>
-</head>
+    </head>
 <body>
 <table border="0" cellpadding="5" cellspacing="0" width="100%">
+
     <thead bgcolor="#fff8dc">
     <th width="200"><img src="images-zooshop/Markiz.jpg" alt="кот" width="200"></th>
     <th><h1>ЗООМАГАЗИН</h1>
         <div id="navigator" valign="bottom">
-            <nav><a href="index.html">Главная</a> | <a href="about.html">О, Магазине!</a> |
-                <a href="articles.html">Что почитать</a> | <a href="form.html">Форма регистрации</a> |
-                <a href="contacts.html">Где нас найти</a>
+            <nav><font size="2"><a href="index.html">Главная</a> | <a href="about.html">О, Магазине!</a> | <a href="articles.html">Что почитать</a> | <a href="form.html">Форма регистрации</a> | <a href="contacts.html">Где нас найти</a></font>
             </nav>
         </div>
     </th>
@@ -35,10 +34,15 @@
             </div>
         </td>
         <td valign="top" height="600" bgcolor="#fffaf0">
-            <div align="center"><h2>Котоведение том первый и джери тоже первый</h2></div>
-
-
-
+            <article align="center">
+                <header>
+                    <h2><font>Котоведение том первый и джери тоже первый</font>></h2>
+                    <base target="frame">
+                </header>
+                <h4><font size="5">Статьи про две стороны извечного противостояния</font></h4>
+                    <p><a href="Introduction.html">Вводная статья всех статей Зоомагазина</a> &nbsp <a href="Cats-genealogy.txt">Генеалогия котов и кошек</a> &nbsp <a href="Dogs-genealogy.txt">Собачье дело эволюции</a></p>
+                    <p><iframe frameborder="0" scrolling="no" name="frame" height="1000" width="98%" src="Introduction.html"></iframe></p>
+            </article>
         </td>
     </tr>
 </table>
