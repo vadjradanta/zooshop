@@ -17,12 +17,17 @@ div.name-page>h1{
     border: 1px solid #0f0f0f;
     float: top;
 }
-div.navigation{
-    min-height: 10px;
-    border: 1px solid #01010c;
-}
 
-footer>div.shoes>span{
+div.ushanka>div.vid{
+    float: left;
+}
+div.ushanka>div.name-page {
+    float: left;
+}
+div.ushanka>div:last-child {
+    clear: both;
+}
+footer>div.shoes{
     min-height: 100px;
     border: 1px solid #01010c;
     vertical-align: bottom;
