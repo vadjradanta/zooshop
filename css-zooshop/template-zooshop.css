@@ -1,4 +1,20 @@
 body {
+    width: 90%; min-height: 500px;
+    border: 1px solid #01010c;
+    margin: 0 0 5% 5%; padding: 1%;
     background-color: #fffaf0;
-    font-family: "Comic Sans MS", serif;
+    font-family: "Calibri Light", serif;
+
+}
+header> div> div.vid{
+    margin-top: 0;
+    border: 1px solid #01010c;
+    width: 200px; min-height: 100px;
+
+}
+div.name-page>h1{
+    text-align: center;
+    font-family: "Times New Roman", "Times", serif; color: #0a3002;
+    border: 1px solid #0f0f0f;
+    float:left;
 }
