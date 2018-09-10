@@ -4,17 +4,27 @@ body {
     margin: 0 0 5% 5%; padding: 1%;
     background-color: #fffaf0;
     font-family: "Calibri Light", serif;
-
 }
 header> div> div.vid{
     margin-top: 0;
     border: 1px solid #01010c;
     width: 200px; min-height: 100px;
-
 }
 div.name-page>h1{
-    text-align: center;
+    width: 600px;
+    text-align: center; letter-spacing: 20px;
     font-family: "Times New Roman", "Times", serif; color: #0a3002;
     border: 1px solid #0f0f0f;
-    float:left;
+    float: top;
+}
+div.navigation{
+    min-height: 10px;
+    border: 1px solid #01010c;
+}
+
+footer>div.shoes>span{
+    min-height: 100px;
+    border: 1px solid #01010c;
+    vertical-align: bottom;
+    font-size: 72px;
 }
