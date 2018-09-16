@@ -11,7 +11,7 @@ header> div> div.vid{
     width: 266px; min-height: available;
 }
 div.name-page>h1{
-    width: 600px;
+    min-width: 600px;
     text-align: center; letter-spacing: 20px;
     font-family: "Times New Roman", "Times", serif; color: #0a3002;
     border: 1px solid #0f0f0f;
