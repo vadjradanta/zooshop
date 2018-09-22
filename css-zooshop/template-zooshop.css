@@ -4,8 +4,3 @@ footer>div.shoes{
     vertical-align: bottom;
     font-family: Colibri light, serif; font-size: 72pt;
 }
-
-body>main>div.content{
-    min-height: 300px;
-    border: 1px solid #01010c;
-}
