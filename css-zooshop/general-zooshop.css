@@ -3,6 +3,7 @@
     height: 400px;
     background-color: #eeff9c;
     flex-flow: column wrap;
+    align-content: stretch;
 }
 
 .flex-item{
@@ -31,6 +32,7 @@
     margin-bottom: 10px;
     width: 500px;
     align-self: flex-end;
+    flex-shrink: 0.1;
     flex-grow: 1;
     order: 3;
 }
