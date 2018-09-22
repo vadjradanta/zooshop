@@ -1,6 +1,36 @@
 .flex-container{
     display: flex;
-    height: fit-content;
-    background-color: #fffaf0;
+    height: 400px;
+    background-color: #eeff9c;
     flex-flow: column wrap;
+}
+
+.flex-item{
+    display: flex;
+    background-color: #eeff9c;
+    align-items: center;
+    justify-items: center;
+}
+
+.vid{
+    border: 1px solid #01010c;
+    align-self: flex-start;
+    flex-basis: 100%;
+    flex-grow: 0;
+    order: 1;
+}
+
+.name-page{
+    border: 1px solid #01010c;
+    margin-right: 10px; margin-left: 10px; margin-bottom: 10px;
+    order: 2;
+
+}
+.top-navigation{
+    border: 1px solid #01010c;
+    margin-bottom: 10px;
+    width: 500px;
+    align-self: flex-end;
+    flex-grow: 1;
+    order: 3;
 }
